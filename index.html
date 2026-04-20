@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Login & Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Signup Form -->
+    <div id="signup-form">
+        <h2>Create Account</h2>
+        <input type="email" id="signup-email" placeholder="Gmail Address">
+        <input type="password" id="signup-password" placeholder="Password">
+        <input type="password" id="signup-confirm" placeholder="Confirm Password">
+        <button onclick="signup()">Sign Up</button>
+        <p>Already have an account? <a href="#" onclick="toggleForm()">Login</a></p>
+    </div>
+
+    <!-- Login Form -->
+    <div id="login-form" style="display: none;">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Gmail Address">
+        <input type="password" id="login-password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p>Don't have an account? <a href="#" onclick="toggleForm()">Sign Up</a></p>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
