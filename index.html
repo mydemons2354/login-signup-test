@@ -15,7 +15,9 @@
         <input type="email" id="signup-email" placeholder="Gmail Address">
         <input type="password" id="signup-password" placeholder="Password">
         <input type="password" id="signup-confirm" placeholder="Confirm Password">
-        <button onclick="signup()">Sign Up</button>
+        <button class="main-btn" onclick="signup()">Sign Up</button>
+        <div class="separator">OR</div>
+        <button class="google-btn" onclick="googleLogin()">Sign in with Google</button>
         <p>Already have an account? <a href="#" onclick="toggleForm()">Login</a></p>
     </div>
 
@@ -24,7 +26,9 @@
         <h2>Login</h2>
         <input type="email" id="login-email" placeholder="Gmail Address">
         <input type="password" id="login-password" placeholder="Password">
-        <button onclick="login()">Login</button>
+        <button class="main-btn" onclick="login()">Login</button>
+        <div class="separator">OR</div>
+        <button class="google-btn" onclick="googleLogin()">Sign in with Google</button>
         <p>Don't have an account? <a href="#" onclick="toggleForm()">Sign Up</a></p>
     </div>
 </div>
