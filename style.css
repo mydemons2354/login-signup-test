@@ -17,11 +17,6 @@ body {
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
 input {
     width: 100%;
     margin: 10px 0;
@@ -34,26 +29,31 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #28a745;
-    color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 10px;
+    font-weight: bold;
 }
 
-button:hover {
-    background-color: #218838;
+.main-btn {
+    background-color: #28a745;
+    color: white;
 }
 
-p {
-    margin-top: 15px;
-    font-size: 14px;
+.google-btn {
+    background-color: #4285F4;
+    color: white;
+}
+
+.separator {
+    margin: 15px 0;
+    font-size: 12px;
+    color: #888;
 }
 
 a {
     color: #007bff;
     text-decoration: none;
-    font-weight: bold;
 }
